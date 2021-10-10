@@ -9,7 +9,7 @@ import ReactScrollToBottom from "react-scroll-to-bottom";
 let socket;
 let isClicked = false;
 
-const ENDPOINT = "http://localhost:4500";
+const ENDPOINT = "https://assessment-chatbot-app.herokuapp.com/";
 
 let question = {
   ques: "Inside which HTML element do we put the JavaScript?",
